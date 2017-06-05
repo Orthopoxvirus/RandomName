@@ -1,0 +1,36 @@
+body {
+	margin: 100px;
+}
+
+div.top,
+div.bottom {
+	margin: 0 auto;
+	text-align: center;
+}
+
+button.randomize{
+	font-size: x-large;
+	padding: 20px 50px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border-radius: 2px;
+	border: thin solid darkgray;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+button.randomize:hover{
+	box-shadow: 0 4px 8px 0 rgba(55, 173, 255, 0.3);
+}
+
+input.name {
+	padding: 10px;
+	margin: 10px;
+	font-size: large;
+	border: none;
+	border-bottom: solid midnightblue thin;
+	text-align: center;
+}
+
+input.name.selected {
+	background: lightgoldenrodyellow;
+}
